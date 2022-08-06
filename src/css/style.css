@@ -1,0 +1,106 @@
+body{
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-container{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 4rem;
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 13px 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    height: 30rem;
+    width: 20rem;
+}
+
+.main-container strong{
+    color: hsl(0, 0%, 100%);
+    margin: 12px 0;
+}
+
+.main-container #p{
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.pay-info{
+    font-size: 13px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.pay-info .value{
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.pay-info .value #ethereum-icon{
+    height: 20px;
+}
+
+.pay-info .time-left{
+    color: hsl(215, 51%, 70%);
+    /* background: darkblue; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.pay-info .time-left #clock{
+    height: 20px;
+}
+
+#nft-img{
+    border-radius: 10px;
+    height: 14rem;
+    width: 100%;
+}
+
+.author-box{
+    margin-bottom: 1.1rem;
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+    border-top: solid 2px hsl(215, 32%, 27%);
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.author-box span{
+    color: hsl(215, 51%, 70%);
+}
+
+#author{
+    border-radius: 20px;
+    border: solid 2px  !important;
+    height: 30px;
+    width: 30px;
+}
+
+.attribution { 
+    color: hsl(0, 0%, 100%);
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
